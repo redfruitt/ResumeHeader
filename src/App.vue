@@ -27,9 +27,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
-          <!-- <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li> -->
+          </li>
         </ul>
       </div>
     </nav>
@@ -78,6 +78,14 @@
                 </span>
               </a>
             </li>
+            <li class="list-inline-item">
+              <a href="https://thevisualway.substack.com/p/coming-soon">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
           </ul>
         </div>
       </section>
@@ -108,8 +116,8 @@
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Amity University</h3>
-              <div class="subheading mb-3">Bachelor of Technology</div>
-              <div>Computer Science</div>
+              <div class="subheading mb-3">Bachelor of Technology - Computer Science</div>
+              <p>Undergraduate Coursework: Operating systems; Data structures and Algorithms; Databases; Programming Languages; Computer Architecture; Theory of Automata and Computation; Mobile Computing; Data Communications and Networks; Artificial Intelligence; Graph Theory; Software Project Management.</p>
               <!-- <p>GPA: 3.23</p> -->
             </div>
             <div class="resume-date text-md-right">
@@ -122,6 +130,7 @@
               <h3 class="mb-0">Chettinad Vidyashram</h3>
               <div class="subheading mb-3">Sciences with Computer Science</div>
               <!-- <p>GPA: 3.56</p> -->
+              <p>Recitation, Japanese Workshops, Software Development Projects, Sports.</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">2012</span>
@@ -169,7 +178,7 @@
             </li>
             <li class="list-inline-item">
               <i class="devicons devicons-npm"></i>
-            </li> 
+            </li>
             <li class="list-inline-item">
               <i class="devicons devicons-docker"></i>
             </li>
@@ -197,6 +206,15 @@
             <li class="list-inline-item">
               <i class="devicons devicons-react"></i>
             </li>
+             <li class="list-inline-item">
+              <i class="devicons devicons-scala"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-linux"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-mysql"></i>
+            </li>
             <li class="list-inline-item">
               <i class="devicons devicons-scrum"></i>
             </li>
@@ -206,8 +224,27 @@
             <li class="list-inline-item">
               <i class="devicons devicons-redis"></i>
             </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-aws"></i>
+            </li>
           </ul>
 
+          <div class="subheading mb-3">Frameworks</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-database   "></i>
+              Apache Spark</li>
+            <li>
+              <i class="fa-li fa fa-database"></i>
+              Apache Airflow</li>
+            <li>
+              <i class="fa-li fa fa-database"></i>
+              Amazon Redshift</li>
+            <li>
+              <i class="fa-li fa fa-database"></i>
+              Google BigQuery</li>
+          </ul>
+          <br/>
           <div class="subheading mb-3">Workflow</div>
           <ul class="fa-ul mb-0">
             <li>
@@ -230,29 +267,29 @@
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
           <p>Apart from being a software developer, I enjoy most of my time reading books. In the winter, I like to trek and try my luck at Poker.</p>
-          <p class="mb-0">When I'm not outside, I follow a number of sci-fi and fantasy genre movies and television shows, I spend a large amount of my free time exploring the latest technolgy advancements world and read Hackernews.</p>
+          <p class="mb-0">When I'm not outside, I follow a number of sci-fi and fantasy genre movies and television shows, I spend a large amount of my free time exploring the latest technological advancements in the world and read Hackernews.</p>
         </div>
       </section>
 
-      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div class="my-auto">
           <h2 class="mb-5">Awards &amp; Certifications</h2>
           <ul class="fa-ul mb-0">
-            <li>
+            <!-- <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
               Google Analytics Certified Developer</li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification</li>
+              Mobile Web Specialist - Google Certification</li>-->
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
               1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
+              Place - Amity University - Robotics Competition 2016</li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-            <li>
+              Finalist -
+              Indus Valley Partners - Finathon 2018</li>
+            <!-- <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
               2<sup>nd</sup>
               Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
@@ -264,10 +301,10 @@
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
               3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005</li>
+              Place - James Buchanan High School - Hackathon 2005</li> -->
           </ul>
         </div>
-      </section> -->
+      </section>
 
     </div>
   </div>
@@ -282,7 +319,7 @@ export default {
       surname: 'Kumar',
       address: 'Delhi NCR, India',
       email: 'krishnaqmar@gmail.com',
-      aboutMe: 'I have close to 3 years of experience working in the fin-tech industry. Currently working as a Software Engineer at IVP.',
+      aboutMe: 'I have close to 3 years of experience working in the fin-tech industry. Currently working as a Software Engineer (Data Engineering) at IVP.',
       experience: [
         {
           position: 'Software Engineer',
@@ -290,8 +327,8 @@ export default {
           description: 'Developing and improving products and services for Hedge Funds based across the world by using best software practices, head first big-data analytical tools, creating and maintaining product frameworks, and pushing existing technology stack to the cloud. Previously, Ive worked as a consultant, where I presented my expertise and developed custom business solutions for our clients and provided guidance in their process of producing alpha while reducing risk.',
           startDate: 'June 2016',
           endDate: 'Present'
-        },
-        
+        }
+
       ]
     }
   },
