@@ -1,6 +1,6 @@
-# my-portfolio
+# Online Resume
 
-> my portfolio
+> Digital version of my on paper resume.
 
 ## Build Setup
 
