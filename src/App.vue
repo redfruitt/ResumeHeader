@@ -47,7 +47,7 @@
           <p class="mb-5">{{ aboutMe }}</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
-              <a href="https://twitter.com/mhfruit">
+              <a href="https://twitter.com/krishnaqmar4">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -55,7 +55,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/krishna-kumar-81914697/">
+              <a href="https://www.linkedin.com/in/krishnaqmar/">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -63,15 +63,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://boring-newton-aa06e2.netlify.com">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/redfruitt">
+              <a href="https://github.com/krishna-kumar456">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -79,7 +71,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://thevisualway.substack.com/p/coming-soon">
+              <a href="https://digiteria.netlify.app/">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -266,8 +258,8 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a software developer, I enjoy most of my time reading books. In the winter, I like to trek and try my luck at Poker.</p>
-          <p class="mb-0">When I'm not outside, I follow a number of sci-fi and fantasy genre movies and television shows, I spend a large amount of my free time exploring the latest technological advancements in the world and read Hackernews.</p>
+          <p>Apart from being a software developer, I enjoy most of my time reading books. I like to trek and try my luck at Poker.</p>
+          <p class="mb-0">When I'm not outside, I read extensively and maintain my blog on data analytics (link at the top!). I follow a number of sci-fi and fantasy genre movies and television shows, I spend a large amount of my free time exploring the latest technological advancements in the world and read Hackernews.</p>
         </div>
       </section>
 
@@ -319,14 +311,21 @@ export default {
       surname: 'Kumar',
       address: 'Delhi NCR, India',
       email: 'krishnaqmar@gmail.com',
-      aboutMe: 'I have close to 3 years of experience working in the fin-tech industry. Currently working as a Software Engineer (Data Engineering) at IVP.',
+      aboutMe: '4 years of experience in the Data Management domain. Currently working as a Software Engineer II (Data Engineering) at Udacity.',
       experience: [
+        {
+          position: 'Software Engineer II, Data',
+          company: 'Udacity',
+          description: 'Data Engineer, contributed towards building the centralized data ecosystem to enable data driven decisions at Udacity. ETL pipelines developed and maintained via Apache Airflow. Workflows involved processing millions of records stored in Data Lake (AWS S3) using Apache Spark and storing within AWS Redshift and also publish events via Message bus to different microservices. Automating build and deployments using CircleCI and Terraform. Built data product services using Go. ',
+          startDate: 'June 2016',
+          endDate: 'May 2020'
+        },
         {
           position: 'Software Engineer',
           company: 'Indus Valley Partners',
           description: 'Developing and improving products and services for Hedge Funds based across the world by using best software practices, head first big-data analytical tools, creating and maintaining product frameworks, and pushing existing technology stack to the cloud. Previously, Ive worked as a consultant, where I presented my expertise and developed custom business solutions for our clients and provided guidance in their process of producing alpha while reducing risk.',
           startDate: 'June 2016',
-          endDate: 'Present'
+          endDate: 'May 2020'
         }
 
       ]
